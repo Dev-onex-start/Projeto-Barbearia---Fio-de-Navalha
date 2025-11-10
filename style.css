@@ -48,9 +48,10 @@ body {
 }
 
 .logo img {
-    height: 60px;
+    height: auto;
+    width: 130px;
     border: 2px solid var(--gold);
-    border-radius: 5px;
+    border-radius: 70px;
     padding: 5px;
 }
 
@@ -193,8 +194,6 @@ body {
 /* Hero Section */
 .hero {
     height: 600px;
-    background: linear-gradient(rgba(26, 15, 10, 0.5), rgba(26, 15, 10, 0.5)),
-                url('https://via.placeholder.com/1920x1080/654321/FFFFFF?text=Barbearia+Old+School') center/cover;
     align-items: center;
     justify-content: center;
     position: relative;
