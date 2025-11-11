@@ -143,7 +143,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // Botões de consultar disponibilidade
+    // Botões de consultar disponibilidade de produtos via WhatsApp
     const btnComprar = document.querySelectorAll('.btn-comprar');
 
     btnComprar.forEach(btn => {
