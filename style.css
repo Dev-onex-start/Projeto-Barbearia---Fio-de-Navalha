@@ -125,7 +125,6 @@ body {
     width: 43px;
     height: 43px;
     border-radius: 30px;
-    bordr: 1px solid var(--gold);
 }
 
 /* Modal de Boas-vindas */
@@ -219,7 +218,7 @@ body {
 
 .hero-subtitle {
     font-size: 24px;
-    color: var(--text-light);
+    color: black;
     margin-bottom: 30px;
     font-style: italic;
 }
