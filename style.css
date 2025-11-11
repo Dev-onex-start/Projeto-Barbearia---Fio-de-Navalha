@@ -121,6 +121,13 @@ body {
     transform: translateY(-3px);
 }
 
+.air-go {
+    width: 43px;
+    height: 43px;
+    border-radius: 30px;
+    bordr: 1px solid var(--gold);
+}
+
 /* Modal de Boas-vindas */
 .modal {
     display: flex;
