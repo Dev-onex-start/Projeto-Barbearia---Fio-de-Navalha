@@ -110,39 +110,7 @@ document.addEventListener('DOMContentLoaded', function () {
         observer.observe(card);
     });
 
-    // Formulário de Contato
-    const contactForm = document.getElementById('contactForm');
-
-    if (contactForm) {
-        contactForm.addEventListener('submit', function (e) {
-            e.preventDefault();
-
-            const nome = document.getElementById('nome').value;
-            const email = document.getElementById('email').value;
-            const telefone = document.getElementById('telefone').value;
-            const mensagem = document.getElementById('mensagem').value;
-
-            // Validação básica
-            if (!nome || !email || !mensagem) {
-                alert('Por favor, preencha todos os campos obrigatórios.');
-                return;
-            }
-
-            // Validação de email
-            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-            if (!emailRegex.test(email)) {
-                alert('Por favor, insira um e-mail válido.');
-                return;
-            }
-
-            // Simular envio do formulário
-            alert('Mensagem enviada com sucesso! Em breve entraremos em contato.');
-
-            // Limpar formulário
-            contactForm.reset();
-        });
-    }
-
+    
     // Botões de consultar disponibilidade de produtos via WhatsApp
     const btnComprar = document.querySelectorAll('.btn-comprar');
 
