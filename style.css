@@ -380,15 +380,15 @@ body {
     box-shadow: 0 15px 40px rgba(139, 69, 19, 0.3);
 }
 
-.servico-icon {
-    width: 80px;
-    height: 80px;
+.servico-icon, .card-corte {
+    width: 220px;
+    height: 220px;
     background: var(--dark-brown);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto 25px;
+    margin: 0 auto;
     border: 3px solid var(--gold);
 }
 
